@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<title>VK user</title>
+  <script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/script.js"></script>
+<script src="js/scriptfun.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Habibi" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<script type="text/javaScript"> 
+  window.onload = function(){
+    loadprofile();
+  }
+</script>
+</head>
+<body>
+  <div class="top" style="height: 200px;">
+    <div class="header">
+
+      <div class="logo">
+        <div class="text">
+          <a href="index.html">VKSearch<i class="fas fa-user-circle"></i></a> 
+
+        </div>
+      </div>
+    </div>
+<div class="header_info">
+  
+  <div class="input">
+    <input placeholder="Search" id="searchpeople" class="searchpeople" onkeypress="enter(event);">
+    <button type="button" onclick="search();"><i class="fas fa-search"></i></button>
+
+
+  </div>
+
+  </div>
+
+</div>
+<div class="content">
+  <div class="profile">
+
+    <div class="guys">
+      <img src="" alt="" id="userphoto">
+       <div class="profileinfo">
+          <h2 id="first_name"></h2>
+
+  <div class="status">
+            <div class="statusProfile" id="statusIcon">
+            </div>
+          <h2 id="statustext"></h2>
+  </div>
+  <div id="idusers"></div>
+
+</div>
+
+    </div>
+    <button onclick="location.href ='index.html';"class="back"><i class="fas fa-arrow-circle-left"></i>назад</button>
+</div>
+</div>
+
+     
+</body>
+
+
+  
+
+</html>

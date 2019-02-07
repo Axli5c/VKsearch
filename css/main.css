@@ -1,0 +1,459 @@
+
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	text-decoration: none;
+	width: 100%;
+	
+}
+.top{
+	margin-top: 0px;
+	width: 100%;
+	position: relative;
+	height: 1000px;
+	background: url(../image/back2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.clear_fix{
+    display: block;
+}
+.clear_fix::after{
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.header{
+	margin-top: 0px;
+	position: relative;
+	display: block;
+	position: relative;
+	max-width: 1500px;
+	min-height: 100px;
+	margin: 0px auto 10px;
+	font-family: Tahoma;
+	box-shadow: 1 0px 0 0 #d7d8db;
+	z-index: 1;
+		
+
+}
+.content{
+	
+	position: relative;
+	max-width: 1500px;
+	min-height: 100px;
+	margin: 0px auto 10px;
+	background: #fff;
+	
+}
+
+.logo{
+	position: relative;
+	max-width: 1500px;
+	position: relative;
+	max-width: 1500px;
+	min-height: 100px;
+	margin-left: 0px auto ;
+	
+	
+}
+
+.text
+{
+	
+	float: left;
+	margin: 0 auto;
+	display: inline-block;	
+	width: auto;
+	position: relative;
+	margin-top:0px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 82px ;
+	color:#fff;
+	text-decoration: none;
+		 
+}
+
+
+.search{
+
+	position: relative;
+	padding-top: 3px;
+	border-radius: 34px;
+	float:right;
+	width: 70%;
+
+}
+.header_info{
+	top: 0px;
+	position: relative;
+	max-width: 1500px;
+	min-height: 100px;
+	margin: 0px auto 10px;
+	border-radius: 85px;
+	
+	
+
+	
+		
+	
+}
+.headerText{
+	padding-top: 300px;
+	font-family: 'Rubik', sans-serif;
+	
+	font-size:36px;
+	color:#faf6ea;
+	position: relative;
+	max-width: 1500px;
+	min-height: 885px;
+	margin: 0px auto 10px;
+	border-radius: 85px;
+}
+input{
+	
+	padding-left:25px;
+	padding-right: 80px;
+	float: left;
+	width: 1500px;
+	min-width: 25%;
+	border:solid 0px #343434;
+	font-family: 'Rubik', sans-serif;
+	font-size: 24px;
+	border-left: 8px solid transparent;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 8px rgba(52, 68, 103, 0.2);
+    color: #273E52;
+	border-radius: 85px;
+	height: 60px;
+	
+	text-decoration: none;	
+	background: #fff; 
+	display: block;
+	outline: none;
+	transition: ease 0.5s;
+	
+	
+}
+button[type="button"] {
+	background:none; 
+	float: right;
+	background-position: center; 
+	height: 60px;
+	border: 0px solid #000000;
+	width: 60px;
+	position: absolute; top: 0px; right: 10px;
+  	z-index: 9;
+  	outline: none;
+  	border: none;
+  	cursor: pointer;
+  	transition: ease 0.5s;
+
+
+}
+.fa-search:hover{
+	color:#273E52;
+	font-size: 30px;
+
+}
+.fa-user-circle{
+	font-size:60px;
+	color:#fff;
+}
+.fa-search{
+	color:#886666;
+	font-size: 24px;
+	padding-right: 15px;
+	transition: ease 0.2s;
+
+}
+input::placeholder{
+	color:#273E52;
+	font: 24px 'Rubik', sans-serif;
+}
+
+	
+
+
+.input{
+	
+	max-width: 100%;
+	margin:0px 0px 0px 0px;
+	min-width: 20%;
+	transition: 0.5s;
+
+	height: 60px;
+	
+
+}
+.searchpeople{
+
+	max-width: 100%;
+	margin:0px 0px 0px 0px;
+	min-width: 20%;
+	
+
+	height: 60px;
+	
+}
+ul{
+	display: inline-block;
+	list-style: none;
+}
+
+.people {
+	position: relative;
+  	display: inline-block;
+  	width: 365px;
+  	height: 300px;
+  	margin-top: 150px;
+  	margin-left: 5px;
+  	margin-right: 5px;
+  	transition: 0.5s;
+  	cursor: pointer;
+	
+}
+	
+
+
+a{
+
+	display: inline-block;
+
+	text-decoration: none;
+	color: #fff;
+
+}
+.first_name {
+	font-family: 'Rubik', sans-serif;
+	border-radius: 0px;
+	max-width: 100%;
+    height: auto;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color:#273E52;	
+
+}
+.last_name{
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	border-radius: 0px;
+	max-width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color:#273E52;	
+}
+.photo{
+	box-shadow: 0px 0px 8px rgba(52, 68, 103, 0.2);
+  	width: 200px;
+  	height: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 170px;
+    transition: 0.5s;
+   
+}
+.people:hover{
+	transform: scale(1.1);
+}
+.statusUsers{
+	
+	height: 15px;
+	width: 15px;
+	border-radius: 100px;
+	background: #8AC176;
+	position: absolute;
+	left: 23%;
+    top: 62%;
+    display: inline-block;
+
+	
+
+}
+.statusProfile{
+	height: 15px;
+	width: 15px;
+	border-radius: 100px;
+	background: #8AC176;
+	position: relative;
+	display: inline-block;
+	top:0.7px;
+	
+
+}
+.ofline{
+	background: #bf7676;
+	display: inline-block;
+
+}
+.Endlist{
+
+	margin-top: 100px;
+	margin-bottom: 	100px;
+	text-align: center;
+	color:#273E52;
+	font-family: 'Rubik', sans-serif;
+}
+
+.fa-arrow-circle-up{
+	width: 60px;
+	height: 60px;
+	font-size: 36px;	
+}
+
+.profile{
+	color:#273E52;
+	font-family: 'Rubik', sans-serif;
+	position: relative;
+	max-width: 1500px;
+	height: 1000px;
+	margin: 15px 25px 10px;
+	
+
+	
+}
+.profileinfo{
+	width: 250px
+	height: 250px;
+	display: inline-block;
+	position: relative;
+	float: right;
+	
+	
+}
+.guys{
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	width: 700px;
+}
+#userphoto{
+	float:left;
+	border-radius: 2px;
+}
+.status h2{
+	
+	display: inline;
+
+}
+.status{
+	
+	position: relative;
+	width: 450px;
+	height: 50px;
+
+}
+
+@media all and (max-width: 1140px){
+	#group{
+		position: relative;
+		width: 750px;
+
+		margin:0 auto;
+	}
+	.photo{
+		
+	}
+
+}
+@media all and (max-width: 760px){
+	#group{
+		position: relative;
+		width: 366px;
+
+		margin:0 auto;
+	}
+	.photo{
+		
+	}
+
+}
+@media all and (max-width: 1300px){
+	#group{
+		position: relative;
+
+		width: 1200px;
+
+		margin-left: 38px;
+		margin-right: 38px;
+		
+	}
+	.photo{
+		
+	}
+
+}
+.up{
+	display: none;
+	font-size: 48px;
+	width: 100px;
+	height: 100px;
+	left:2%;
+	text-decoration: none;
+	bottom: 2%;
+	background: none;
+	outline: none;
+  	border: none;
+  	cursor: pointer;
+	position: fixed;
+
+}
+.fa-arrow-circle-up{
+	font-size: 64px;
+	color:#273E52;
+	text-decoration: none;
+	
+}
+#idusers{
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	float: left;	
+	transition: 0.5s;
+}
+
+#idusers a:hover{
+	color:#4A76A8;
+}
+#idusers a{
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color:#273E52;
+	transition: 0.5s;
+}
+#userphoto{
+	transition: 0.5s;
+}
+.fa-arrow-circle-left{
+	font-size: 28px;
+	color:#273E52;
+	text-decoration: none;
+}
+.back{
+	float: right;
+	font-size: 38px;
+	width: 200px;
+	height: 100px;
+	color:#273E52;
+	display: inline-block;
+	text-decoration: none;
+	background: none;
+	outline: none;
+  	border: none;
+  	cursor: pointer;	
+}
